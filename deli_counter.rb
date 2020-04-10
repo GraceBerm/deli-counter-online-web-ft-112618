@@ -5,7 +5,7 @@ def line(katz_deli)
     arr = ["The line is currently:"]
     katz_deli.each_with_index do |name, index|
       x = index.to_i
-      arr << "#{[x + 1]}. #{name}"
+      arr << "#{x + 1}. #{name}"
     end
 
     puts arr.join(" ")
